@@ -1,0 +1,74 @@
+Syntax for "if"
+if [ condition ];
+	then
+		statement
+fi
+
+
+
+Syntax for "if-else"
+if [ cond1 ];
+	then
+		statement1
+else
+	statement2
+fi
+
+
+
+Syntax for "elif"
+if [ cond1 ];
+	then
+		statement1
+elif [ cond2 ];
+	then
+		statement2
+else
+	statement3
+fi
+
+
+
+
+Syntax for "nested if"
+if [ cond1 ];
+	then
+		statement1
+		if [ cond ];
+			then
+				statement2
+		else
+			statement3
+else
+	statement4
+fi
+
+
+
+
+
+
+Syntax for "for loop"
+for var in list
+	do
+		statement
+	done
+
+
+
+
+Syntax for "while"
+while [ cond ];
+	do
+		statement
+	done
+
+
+
+
+Syntax for "until"
+until [ cond ];
+	do
+		statement
+	done
+
